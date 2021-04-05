@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import {Component} from 'react';
 import Calendar from './Calendar';
 import {withDateSelection} from './Calendar/withDateSelection';
 

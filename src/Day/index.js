@@ -1,4 +1,4 @@
-import React, {PureComponent} from 'react';
+import {PureComponent} from 'react';
 import classNames from 'classnames';
 import parse from 'date-fns/parse';
 import styles from './Day.scss';

@@ -39,7 +39,7 @@ export default function animate({
       // Callback
       elapsed <= duration
         ? tick
-        : onComplete
+        : onComplete,
     ));
   };
 

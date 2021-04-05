@@ -201,7 +201,7 @@ export default class Calendar extends Component {
     const scrollSpeed = this.scrollSpeed = Math.abs(this.getScrollSpeed(scrollTop));
     this.scrollTop = scrollTop;
 
-		// We only want to display the months overlay if the user is rapidly scrolling
+    // We only want to display the months overlay if the user is rapidly scrolling
     if (showOverlay && scrollSpeed > rowHeight && !isScrolling) {
       this.setState({
         isScrolling: true,
@@ -266,20 +266,20 @@ export default class Calendar extends Component {
   }
   render() {
     let {
-			className,
+      className,
       passThrough,
       DayComponent,
-			disabledDays,
+      disabledDays,
       displayDate,
-			height,
+      height,
       HeaderComponent,
       rowHeight,
       scrollDate,
       selected,
-			tabIndex,
-			width,
+      tabIndex,
+      width,
       YearsComponent,
-		} = this.props;
+    } = this.props;
     const {
       hideYearsOnSelect,
       layout,

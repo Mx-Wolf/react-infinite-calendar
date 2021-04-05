@@ -120,7 +120,7 @@ function handleYearSelect(date, {displayKey, onSelect, selected, setScrollDate})
 
   setScrollDate(date);
   onSelect(getSortedSelection(
-    Object.assign({}, selected, {[displayKey]: parse(date)}))
+    Object.assign({}, selected, {[displayKey]: parse(date)})),
   );
 }
 

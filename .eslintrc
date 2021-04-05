@@ -16,5 +16,6 @@
         "allowSamePrecedence": true
       }
     ]
-  }
+  },
+  "ignorePatterns": ["./dist/**/*.js"]
 }

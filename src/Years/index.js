@@ -107,7 +107,7 @@ export default class Years extends Component {
     const rowHeight = showMonths ? 110 : 50;
     const heights = years.map((val, index) => index === 0 || index === years.length - 1
       ? rowHeight + SPACING
-      : rowHeight
+      : rowHeight,
     );
     const containerHeight = years.length * rowHeight < height + 50
       ? years.length * rowHeight
